@@ -1,0 +1,31 @@
+Subtraction programm for two matrices
+
+A=[]
+m=int(input())
+n=int(input())
+for i in range(n):
+     row=[]
+      for j in range(n):
+            K=int(input())
+            row.append(k)
+       A.append(row)
+Print(A)
+B=[]
+m=int(input())
+n=int(input())
+for i in range(n):
+      row=[]
+       for j in range(n):
+           K=int(input())
+           row.append(k)
+       B.append(row)
+Print (B)
+result=[[0,0],[0,0]]
+for i  in range(n):
+      for j in range(n):
+          result[i][j]=A[i][j]-B[i][j]
+Print ("resultant matrix:")
+for i in range (n):
+     for j in range(n):
+         print (result[i][j],end=' ')
+     Print ()
